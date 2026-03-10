@@ -4,6 +4,8 @@ defaultTargets = ["tuister"]
 
 [leanOptions]
 autoImplicit = false
+pp.unicode.fun = true
+pp.proofs.withType = false
 
 [[require]]
 name = "mathlib"
